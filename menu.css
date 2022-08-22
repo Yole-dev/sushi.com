@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(12, 11, 11);
+    color: rgb(241, 213, 187);
+    box-shadow: 10px 10px 20px rgba(12, 11, 11, 0.438);
+}
+
+nav div:hover {
+    background-color: rgb(241, 213, 187);
+    transition: 1.2s ease-in;
+    cursor: pointer;
+    over-flow: hidden;
+}
+
+nav div:last-of-type:hover {
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+nav div:hover i {
+    color:rgb(12, 11, 11);
+}
+
+main {
+    color: rgb(12, 11, 11);
+}
+
+main>div:first-of-type {
+    background-color: rgb(241, 213, 187);
+    height: 2.5px;
+    width: 170px;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+}
+
+section div>p {
+    align-self: center;
+}
+
+main button {
+    background-color: rgb(12, 11, 11);
+    color: rgb(241, 213, 187);
+    align-self: center;
+}
